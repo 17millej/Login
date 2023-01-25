@@ -1,0 +1,26 @@
+﻿body
+{
+    background: #0094ff;
+}
+
+login{
+    text-align: center;
+    padding: 2em;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.login label{
+    margin: 2em;
+}
+
+button{
+    background-color: #808080;
+    color: white;
+    transition: all 1s;
+}
+
+button:hover{
+    background-color: #03042c;
+    transform: translateX(500px) rotateZ(720deg);
+}
