@@ -22,5 +22,8 @@ button{
 
 button:hover{
     background-color: #03042c;
-    transform: translateX(500px) rotateZ(720deg);
+}
+
+loginpage{
+    
 }

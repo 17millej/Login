@@ -9,11 +9,11 @@
 <body>
     Login To FakeBook
 
-    <div>
+    <div id="loginpage">
         <div id="login">
-            <label for="username">             
+            <label for="username">
                 Username:
-                <input type="text" name="username" />
+                <input type="text" name="userName" />
             </label>
         </div>
 
@@ -24,7 +24,13 @@
             </label>
         </div>
 
-    <button id="button">Login</button>
+        <button id="button" onclick="Login">Login</button>
+        <button id="button" onclick="CreateUser">Create Account</button>
+        <button id="button" onclick="ResetPassword">Reset Password</button>
+
+        <div id="hints">
+            Welcome to FakeBook
+        </div>
 
     </div>
 </body>
